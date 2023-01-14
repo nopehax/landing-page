@@ -31,20 +31,39 @@ a {
 .intro {
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
     background-color: #1F2937;
-    padding: 0 50px;
+    padding: 50px 50px;
+    justify-content: center;
+    gap: 70px;
 }
 
 .intro .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 500px;
     gap: 5px;
 }
 
 .intro button {
     flex: 0 0 auto;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     font-size: 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.intro strong {
+    font-size: 48px; 
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 40px 0 0;
+}
+
+.intro p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
 }
